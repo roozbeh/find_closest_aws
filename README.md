@@ -10,7 +10,8 @@ This repository is created to find the closest AWS region to the current environ
 ```python find_servers.py```
 
 # Sample output
-The following output shows the best region for the current location is `EU Central` and `EU-West-1`
+The following output shows the best region for the current location is `EU Central` and `EU-West-1` while the closest geographic location to here is `Asia Pacific (Mumbai)`
+
 ```
 Fetching regions
 Calculating round trip for ec2.ap-south-1.amazonaws.com
@@ -44,3 +45,7 @@ Calculating round trip for ec2.us-west-2.amazonaws.com
     (u'ap-northeast-1', 470.601),
     (u'sa-east-1', 501.489)]
 ```
+
+# Geographic map of AWS servers
+
+![alt text](https://d1.awsstatic.com/global-infrastructure/maps/Global_Infrastructure_about-aws_12.6.17.8047dae94d37855413251eafdf0809cf78ea65a6.png)
